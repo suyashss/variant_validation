@@ -18,7 +18,6 @@ omnivcf=../../../data/chr22_Omni.vcf.gz
 all:
 	echo "Dummy target. Targets are listed below"
 	grep '^[a-z]*:' makefile
-	echo "make testsample_illumina_rtg_gatk.pos"
 	echo "make getcoverage" 
 	echo "Wait for clusterjobs to finish"
 	echo "make allroc_combined.png"

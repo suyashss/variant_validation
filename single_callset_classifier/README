@@ -1,0 +1,5 @@
+This directory includes a makefile that can be used to run all the analysis
+The coverage calculations are parallelized over all BAM files so the analysis can be run with two steps, the second of which should be run only after the first step (and the cluster jobs) has succesfully completed.
+
+Step 1: make getcoverage
+Step 2: make allroc_combined.png
